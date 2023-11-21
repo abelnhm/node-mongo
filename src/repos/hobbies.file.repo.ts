@@ -11,7 +11,7 @@ export class HobbiesFileRepo implements Repository<Hobbies> {
   hobbies: Hobbies[];
   constructor() {
     debug('Instantiated');
-    this.file = './data/data.json';
+    this.file = './data/tasks.json';
     this.hobbies = [];
     this.loadData();
   }
@@ -31,7 +31,13 @@ export class HobbiesFileRepo implements Repository<Hobbies> {
     return result;
   }
 
-  search({ _key, _value }: { _key: string; _value: unknown }): Promise<Hobbies[]> {
+  search({
+    _key,
+    _value,
+  }: {
+    _key: string;
+    _value: unknown;
+  }): Promise<Hobbies[]> {
     // Temp this.hobbies.find((item) => item[_key] === _value)
     throw new Error('Method not implemented.');
   }
@@ -47,7 +53,9 @@ export class HobbiesFileRepo implements Repository<Hobbies> {
     let result = this.hobbies.find((item) => item.id === id);
     if (!result) throw new HttpError(404, 'Not Found', 'Update not possible');
     result = { ...result, ...updatedItem } as Hobbies;
-    const newTasks = this.hobbies.map((item) => (item.id === id ? result : item));
+    const newTasks = this.hobbies.map((item) =>
+      item.id === id ? result : item
+    );
     await this.save(newTasks as Hobbies[]);
     return result;
   }

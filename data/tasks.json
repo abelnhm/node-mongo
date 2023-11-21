@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "topic": "drive",
+    "name": "Serafin",
+    "place": "Malaga",
+    "picture": "https://emilypost.com/client_media/images/blogs/everyday-driving.jpg"
+  },
+  {
+    "id": "2",
+    "topic": "ride a bike",
+    "name": "Pepe",
+    "place": "Almeria",
+    "picture": "https://www.cybersmile.org/wp-content/uploads/Why-You-Never-Forget-How-to-Ride-a-Bike.jpg"
+  },
+  {
+    "id": "3",
+    "topic": "Cinema",
+    "name": "Andres",
+    "place": "Almeria",
+    "picture": "https://images.adsttc.com/media/images/5f7d/fef2/63c0/170a/9100/0273/large_jpg/Jiangnan_Photography.jpg?1602092773"
+  },
+  {
+    "id": "8",
+    "topic": "work out",
+    "name": "Luisa",
+    "place": "El Ejido",
+    "picture": "https://images.theconversation.com/files/484174/original/file-20220913-2241-id16e.jpg?ixlib=rb-1.1.0&rect=0%2C689%2C5550%2C2775&q=45&auto=format&w=668&h=324&fit=crop"
+  },
+  {
+    "id": "9",
+    "topic": "running",
+    "name": "Joseph",
+    "place": "Madrid",
+    "picture": "https://www.trailrun.es/uploads/s1/77/91/38/1/adobestock-62175994.jpeg"
+  },
+  {
+    "id": "10",
+    "topic": "Visit museums",
+    "name": "John",
+    "place": "London",
+    "picture": "https://foundlingmuseum.org.uk/wp-content/uploads/2022/01/38A2851-retouched-visitus.jpg"
+  },
+  {
+    "topic": "go to the beach",
+    "name": "Felipe",
+    "place": "Chiclana",
+    "id": "12",
+    "picture": "https://media.cntraveler.com/photos/5ec60db3809091eca82803c8/master/pass/PensacolaBeach-2020-GettyImages-162419903.jpg"
+  },
+  {
+    "topic": "traveling",
+    "name": "Hannah",
+    "place": "Sofia",
+    "id": "13",
+    "picture": "https://www.usatoday.com/gcdn/-mm-/7ddcee9f94aad61a0f794c2d28fa0a843bc2492b/c=131-291-2575-2736/local/-/media/USATODAY/USATODAY/2013/08/28/1377727344038-XXX-SOFIA-BULGARIA-TRAVEL-COVER-3567.jpg"
+  },
+  {
+    "topic": "mmmdfgsdfhsdgmmm",
+    "name": "Serafin",
+    "place": "Malaga",
+    "picture": "https://emilypost.com/client_media/images/blogs/everyday-driving.jpg",
+    "id": "ff0b8af2-f549-4178-aced-2a1aa93145f6"
+  }
+]
