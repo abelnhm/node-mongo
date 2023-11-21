@@ -1,14 +1,14 @@
 import { NextFunction, Request, Response } from 'express';
-import { NotesFileRepo } from '../repos/notes.file.repo.js';
 import createDebug from 'debug';
+import { Repository } from '../repos/repo.js';
+import { Note } from '../entities/notes.js';
 
 const debug = createDebug('W7E:notes:controller');
 
 export class NotesController {
-  repo: NotesFileRepo;
-  constructor() {
+  // eslint-disable-next-line no-unused-vars
+  constructor(private repo: Repository<Note>) {
     debug('Instantiated');
-    this.repo = new NotesFileRepo();
   }
 
   async getAll(_req: Request, res: Response) {
